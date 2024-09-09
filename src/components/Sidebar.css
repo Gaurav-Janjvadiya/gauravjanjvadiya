@@ -1,0 +1,20 @@
+.sidebarcmp {
+  background-color: #f8f9fa !important;
+}
+
+.btn-light {
+  width: 100%;
+  color: #333 !important;
+  border: none !important;
+  transition: background-color 0.3s, color 0.3s !important;
+}
+
+.btn-light:hover {
+  background-color: #e2e6ea !important;
+  color: #0056b3 !important;
+}
+
+.btn-light:active {
+  background-color: #dae0e5 !important;
+  color: #004085 !important;
+}
