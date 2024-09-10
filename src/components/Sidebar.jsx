@@ -4,15 +4,24 @@ import "./Sidebar.css";
 function Sidebar() {
   return (
     <div>
+     <div className="container position-relative">
+  <div className="row">
+    <div className="col-12">
       <button
-        className="btn material-symbols-outlined bg-light fs-1 p-0 p-md-0 m-4 border border-dark-subtle position-fixed"
+        className="btn material-symbols-outlined bg-light fs-1 p-0 border border-dark-subtle position-absolute"
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasScrolling"
         aria-controls="offcanvasScrolling"
+        // Center the button on smaller screens
+        style={{ top: '10px', left: '10px' }} // Adjust placement for small screens
       >
         menu
       </button>
+    </div>
+  </div>
+</div>
+
       <div
         className="offcanvas offcanvas-start"
         data-bs-scroll="true"
