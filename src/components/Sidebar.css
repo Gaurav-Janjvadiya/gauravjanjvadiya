@@ -6,6 +6,9 @@
   width: 100%;
   color: #333 !important;
   border: none !important;
+  position: relative;
+  text-decoration: none;
+  padding: 10px;
   transition: background-color 0.3s, color 0.3s !important;
 }
 
@@ -17,4 +20,19 @@
 .btn-light:active {
   background-color: #dae0e5 !important;
   color: #004085 !important;
+}
+
+.btn-light::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #0056b3;
+  transition: width 0.3s ease;
+}
+
+.btn-light:hover::after {
+  width: 100%;
 }

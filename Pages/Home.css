@@ -1,0 +1,13 @@
+/* Home.css */
+.typewriter-cursor {
+    font-size: 1.5em; /* Adjust size */
+    color: #000; /* Adjust color */
+    animation: blink 0.75s step-end infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
