@@ -9,4 +9,5 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #e6e6fa;
+  scroll-behavior: smooth; 
 }
