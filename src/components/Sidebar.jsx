@@ -4,23 +4,22 @@ import "./Sidebar.css";
 function Sidebar() {
   return (
     <div>
-     <div className="container position-relative">
-  <div className="row">
-    <div className="col-12">
-      <button
-        className="btn material-symbols-outlined bg-light fs-1 p-0 border border-dark-subtle position-absolute"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasScrolling"
-        aria-controls="offcanvasScrolling"
-        // Center the button on smaller screens
-        style={{ top: '10px', left: '10px' }} // Adjust placement for small screens
-      >
-        menu
-      </button>
-    </div>
-  </div>
-</div>
+      <div className="container position-relative">
+        <div className="row">
+          <div className="col-12">
+            <button
+              className="btn fs-1 p-2 position-absolute"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasScrolling"
+              aria-controls="offcanvasScrolling"
+              style={{ top: "10px", left: "10px" }}
+            >
+              <span className="material-symbols-outlined">menu</span>
+            </button>
+          </div>
+        </div>
+      </div>
 
       <div
         className="offcanvas offcanvas-start"
@@ -41,28 +40,28 @@ function Sidebar() {
         <div className="offcanvas-body p-0 sidebarcmp">
           <Link
             to="/"
-            className="btn-light nav-link fs-3 fs-md-4 fs-lg-5"
+            className="light nav-link fs-3 fs-md-4 fs-lg-5"
             aria-label="User Profile"
           >
             Home
           </Link>
           <Link
             to="/projects"
-            className="btn-light nav-link fs-3 fs-md-4 fs-lg-5"
+            className="light nav-link fs-3 fs-md-4 fs-lg-5"
             aria-label="Settings"
           >
             Projects
           </Link>
           <Link
             to="/about-me"
-            className="btn-light nav-link fs-3 fs-md-4 fs-lg-5"
+            className="light nav-link fs-3 fs-md-4 fs-lg-5"
             aria-label="Logout"
           >
             About Me
           </Link>
           <Link
             to="/contact"
-            className="btn-light nav-link fs-3 fs-md-4 fs-lg-5"
+            className="light nav-link fs-3 fs-md-4 fs-lg-5"
             aria-label="Logout"
           >
             Contact

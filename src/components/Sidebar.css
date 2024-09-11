@@ -2,7 +2,7 @@
   background-color: #f8f9fa !important;
 }
 
-.btn-light {
+.light {
   width: 100%;
   color: #333 !important;
   border: none !important;
@@ -12,17 +12,17 @@
   transition: background-color 0.3s, color 0.3s !important;
 }
 
-.btn-light:hover {
+.light:hover {
   background-color: #e2e6ea !important;
   color: #0056b3 !important;
 }
 
-.btn-light:active {
+.light:active {
   background-color: #dae0e5 !important;
   color: #004085 !important;
 }
 
-.btn-light::after {
+.light::after {
   content: "";
   position: absolute;
   left: 0;
@@ -33,7 +33,6 @@
   transition: width 0.3s ease;
 }
 
-.btn-light:hover::after {
+.light:hover::after {
   width: 100%;
 }
-
