@@ -122,7 +122,7 @@ function Home() {
         <h2 className="text-center mb-4">Contact</h2>
         <p className="text-center">
           Want to collaborate? Feel free to reach out to me via{" "}
-          <a href="mailto:gaurav@example.com">email</a>.
+          <a href="mailto:janjvadiyagaurav344@gmail.com">email</a>.
         </p>
       </div>
     </>

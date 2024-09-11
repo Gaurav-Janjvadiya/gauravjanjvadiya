@@ -58,8 +58,8 @@ const ContactMe = () => {
   };
 
   return (
-    <Container className="my-5">
-      <Row className="justify-content-center">
+    <Container className="mt-5 min-vh-100">
+      <Row className="justify-content-center pt-5">
         <Col md={8}>
           {submitted && (
             <Alert variant="success">
